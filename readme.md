@@ -35,7 +35,7 @@
         ----------------------------------
 
         -   Pour cela une configuration minimal s'impose depuis : 
-            /etc/mysql/mysql.conf.d/mysqld.cnf - il faudra décommenter:
+            /etc/mysql/mysql.conf.d/mysqld.cnf - il faudra décommenter et ajuster:
             ------------------------------
                 user        = mysql
                 pid-file    = /var/run/mysqld/mysqld.pid
