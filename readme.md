@@ -66,14 +66,14 @@ Retrouvez ces informations entres autres dans la liste de lien à la fin de ce c
 
 
 ### L'arborescence du dossier 0-python-mysql :
-a - un dossier : 0-rapports -> comprendra des dossiers de rapport du genre : report-20210414-221024
-b - un dossier : 0-remoteBackup -> comprendra des dossiers de backup de la database en local du genre : 20210414-221024
-c - un dossiers Collections-a-installer : avec 2 collections ansible à installer
-d - un dossier : library -> comprenant 2 scripts python
-e - un dossier : wordpress-bdd_backup -> comprend un fichier playbbok.yml plus un dossiers vars avec un fichier default.yml inside
-f - un fichier : hosts (fichier inventaire ansible)
-g - un fichier de licence
-h - un fichier readme.md
+    a - un dossier : 0-rapports -> comprendra des dossiers de rapport du genre : report-20210414-221024
+    b - un dossier : 0-remoteBackup -> comprendra des dossiers de backup de la database en local du genre : 20210414-221024
+    c - un dossiers Collections-a-installer : avec 2 collections ansible à installer
+    d - un dossier : library -> comprenant 2 scripts python
+    e - un dossier : wordpress-bdd_backup -> comprend un fichier playbbok.yml plus un dossiers vars avec un fichier default.yml inside
+    f - un fichier : hosts (fichier inventaire ansible)
+    g - un fichier de licence
+    h - un fichier readme.md
 
 
 ### Les paramètres
