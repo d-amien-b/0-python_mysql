@@ -68,7 +68,7 @@ De nombreux tutoriels de DigitalOcean (hébergeur web) peuvent être utiles pour
 Retrouvez ces informations entres autres dans la liste de lien à la fin de ce compte rendu.
 
 
-### L'arborescence du dossier 0-python-mysql :
+## L'arborescence du dossier 0-python-mysql :
 a - un dossier : 0-rapports -> comprendra des dossiers de rapport du genre : report-20210414-221024
 b - un dossier : 0-remoteBackup -> comprendra des dossiers de backup de la database en local du genre : 20210414-221024
 c - un dossiers Collections-a-installer : avec 2 collections ansible à installer
