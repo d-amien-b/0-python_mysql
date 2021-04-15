@@ -134,8 +134,8 @@ Les variables de connexion ayant été pré-défini au préalable, le script va 
     python3 v1.0.1-pythonRapportsStat.py 
 
 
-# Cours et tutos traitants de ce playbook 
-    *******************************************
+# Cours et tutos traitants de ces petits modules 
+    *********************************************
     https://openclassroom.com/fr/courses/1959476-administrez-vos-bases-de-donnees-avec-mysql/1959969-installez-mysql
     https://digitalocean.com/community/tutorials/how-to-allow-remote-access-to-mysql
     https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
