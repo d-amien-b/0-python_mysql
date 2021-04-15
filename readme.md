@@ -1,12 +1,12 @@
-## Modules 0-python_mysql (mysql 8.0.* - python3.8.5 - pip 20.0.2 (python 3.8) )
-# Ce module comprend 3 commandes totalement indépendantes les unes des autres
-# 1 - Génère avec ansible une copie de sauvegarde d'un ou plusieurs sites internet distants ainsi que leur bdd
-# 2 - Génère une copie d'une bdd distante via un dossier local
-# 3 - Génère des requètes SQL depuis un tableau à 2 dimensions 
-#     et génère pour chaque résultat un fichier au format JSON 
-#     Les fichiers sont regroupés dans un dossier portant la date et l'heure de la génération
-#     C'est fichiers peuvent être exploités à des fins de statistiques ou de création de listes
-# *********************************************************************************************
+# Modules 0-python_mysql (mysql 8.0.* - python3.8.5 - pip 20.0.2 (python 3.8) )
+    # Ce module comprend 3 commandes totalement indépendantes les unes des autres
+    # 1 - Génère avec ansible une copie de sauvegarde d'un ou plusieurs sites internet distants ainsi que leur bdd
+    # 2 - Génère une copie d'une bdd distante via un dossier local
+    # 3 - Génère des requètes SQL depuis un tableau à 2 dimensions 
+    #     et génère pour chaque résultat un fichier au format JSON 
+    #     Les fichiers sont regroupés dans un dossier portant la date et l'heure de la génération
+    #     C'est fichiers peuvent être exploités à des fins de statistiques ou de création de listes
+    # ***********************************************
 
 # Il est nécessaire d'avoir au moins 2 machines :
     -   1 machine qui sera le node manager pour jouer le playbook et lancer les scripts python
@@ -88,7 +88,7 @@ h - un fichier readme.md
 # ** Les fonctionnalitées **
 
 ### 1 - Le playbook ansible wordpress-bdd_backup
-Ce playbook wordpress-bdd_backup va récupérer les variables depuis le fichier default.yml qui se trouve dans /vars 
+Ce playbook wordpress-bdd_backup va récupérer les variables depuis le fichier default.yml qui se trouvent dans /vars 
 L'execution de ce playbook aura pour effet de :
 1 - créer un dossier "/mnt/web_backup" pour recevoir la copie compressée du site internet
 2 - faire la copie du site et la compressée à destination du dossier créé en 1
