@@ -1,6 +1,6 @@
 # Modules 0-python_mysql 
     ##(mysql 8.0.* - python3.8.5 - pip 20.0.2 (python 3.8) )
-    # Ce module comprend 3 commandes totalement indépendantes les unes des autres
+    # Ce module comprend 3 petits modules totalement indépendantes les unes des autres
     # 1 - Génère avec ansible une copie de sauvegarde d'un ou plusieurs sites internet distants ainsi que leur bdd
     # 2 - Génère une copie d'une bdd distante via un dossier local
     # 3 - Génère des requètes SQL depuis un tableau à 2 dimensions 
